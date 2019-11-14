@@ -259,6 +259,7 @@ build_dependencies() {
   meta_set "build-step" "build-script"
   header "Build"
   run_build_script "$BUILD_DIR"
+  npm install gulp -g
 }
 
 meta_set "build-step" "install-dependencies"
