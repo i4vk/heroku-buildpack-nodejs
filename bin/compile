@@ -262,6 +262,7 @@ build_dependencies() {
 
   echo "Instalando gulp"
 
+  npm install gulp -g
   npm install gulp
 }
 
