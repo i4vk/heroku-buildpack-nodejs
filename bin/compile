@@ -263,7 +263,6 @@ build_dependencies() {
   echo "Instalando gulp"
 
   npm install gulp -g
-  npm install gulp
 }
 
 meta_set "build-step" "install-dependencies"
